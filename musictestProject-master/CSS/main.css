@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.header{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 5%;
+}
+
+
+header{
+    background-color: white;
+    padding: 20px 10px;
+    overflow: auto;
+    height:5%;
+    position:fixed;
+    width: 100%;
+}
+
+body{
+    background-image: url("images/test.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+h1{
+    color: white;
+
+}
+
+.header button{
+    overflow: auto;
+    height: 100%;
+    width: 10%;
+    border: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    float: right;
+    background-color: white;
+}
+
+.header button:hover{
+    background-color: lightblue;
+}
+.figure a {
+    width: 200px;
+    height: 200px;
+}
+
+
+.header img{
+    height:60%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.header img:hover{
+    background-color: lightblue;
+}
+
+.header a{
+    width: 5%;
+    height: 170%;
+    float: right;
+}
+@media only screen and (max-width: 768px) {
+    .header button {
+    <!-- placeholder -->
+    }
+}
+
+.main {
+    border: 1px solid white;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background: black;
+}
+
