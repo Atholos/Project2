@@ -45,7 +45,6 @@ fetch('./images.json').then(response => {
 });
 
 
-
 const showPics= () => {
   const showImages = (data) => {
     while (body.firstChild) {
